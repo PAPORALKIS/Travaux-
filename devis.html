@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demande de devis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Demande de devis</h1></header>
+  <form action="https://formspree.io/f/mzbqwdpj" method="POST">
+    <label>Nom:
+      <input type="text" name="nom" required>
+    </label>
+    <label>Email:
+      <input type="email" name="email" required>
+    </label>
+    <label>Travaux demandés:
+      <textarea name="message" required></textarea>
+    </label>
+    <label>Date souhaitée:
+      <input type="date" name="date">
+    </label>
+    <button type="submit">Envoyer</button>
+  </form>
+</body>
+</html>
